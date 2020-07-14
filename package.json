@@ -1,20 +1,17 @@
 {
   "name": "dissolve",
-  "version": "0.3.4-2",
+  "version": "0.3.4-3",
   "description": "Parse and consume binary streams with a neat DSL",
   "main": "index.js",
-  "engines": {
-    "node": ">=0.10.0 <=5"
-  },
   "scripts": {
     "test": "mocha -R spec"
   },
   "dependencies": {
-    "bl": "^4.0.1",
+    "bl": "^4.0.2",
     "readable-stream": "^2.3.7"
   },
   "devDependencies": {
-    "mocha": "^7.1.0",
+    "mocha": "^8.0.1",
     "chai": "^4.2.0"
   },
   "repository": {
